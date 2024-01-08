@@ -22,7 +22,7 @@
     - name: Start the container
       docker_container:
         name: apprelease
-        image: "nagesh143/apprelease:{{DOCKER_TAG}}"
+        image: "nagesh143/app:v0.0.1"
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
